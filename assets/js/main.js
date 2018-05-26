@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){new SweetScroll({});particlesJS("particles-js",{
 	particles:
 {
-	number:{value:200,density:{enable:!0,value_area:800}},
+	number:{value:80,density:{enable:!0,value_area:800}},
 	color:{value:"#ffffff"},
 	shape:{type:"polygon",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5},image:{src:"img/github.svg",width:100,height:100}},
 	opacity:{value:.5,random:!1,anim:{enable:!1,speed:1,opacity_min:.1,sync:!1}},
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded",function(){new SweetScroll({});part
 	interactivity:
 {
 	detect_on:"canvas",
-	events:{onhover:{enable:!0,mode:"repulse"},onclick:{enable:!1,mode:"push"},resize:!0},
+	events:{onhover:{enable:!0,mode:"grab"},onclick:{enable:!0,mode:"push"},resize:!0},
 	modes:{
 		grab:{distance:400,line_linked:{opacity:1}},
 		bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},
