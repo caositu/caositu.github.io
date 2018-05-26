@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",function(){new SweetScroll({});part
 	opacity:{value:.5,random:!1,anim:{enable:!1,speed:1,opacity_min:.1,sync:!1}},
 	size:{value:3,random:!0,anim:{enable:!1,speed:19.18081918081918,size_min:.1,sync:!0}},
 	line_linked:{enable:!0,distance:150,color:"#ffffff",opacity:.4,width:1.5},
-	move:{enable:!0,speed:4,direction:"none",random:!0,straight:!0,out_mode:"bounce",bounce:!0,attract:{enable:!1,rotateX:600,rotateY:1200}},
+	move:{enable:!0,speed:4,direction:"none",random:!0,straight:!1,out_mode:"out",bounce:!1,attract:{enable:!1,rotateX:600,rotateY:1200}},
 	nb:80
 },
 	interactivity:
