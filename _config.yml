@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 
 # Website settings
@@ -68,3 +69,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 30f8745c66b306e5369c96d80e02a61c388adadd
