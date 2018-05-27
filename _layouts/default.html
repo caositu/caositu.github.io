@@ -53,7 +53,7 @@
                 {{ page.content | markdownify }}
                 <ul class="timeline">
                 {% for post in site.posts%}
-		 
+		 		{% if  post.category == "edu"  %}
                   {% assign loopindex = forloop.index | modulo: 100 %}
                   {% capture class %}
                     {% if loopindex == 0 %}
@@ -75,7 +75,7 @@
                           </div>
                       </div>
                   </li>
-		 
+		 		{% endif %}
                 {% endfor %}
                 </ul>
 
