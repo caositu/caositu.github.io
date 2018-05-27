@@ -1,3 +1,15 @@
+url: https://andytaoli.github.io
+baseurl: /
+
+ 
+keywords: "jekyll, theme"
+google-tracking-id:
+
+# Career Settings
+# Default career thumbnail image.
+career-img: "img/timeline/default.jpg"
+
+exclude: ["Rakefile", "LICENSE", "readme.markdown"，'package.json', 'src' , 'node_modules']
 # Site settings
 title: AndyTaoLi
 description: A Personal webiste of AndyTaoLi
@@ -17,4 +29,4 @@ gplus_username:  andytaoli
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+ 
