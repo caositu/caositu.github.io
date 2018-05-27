@@ -1,8 +1,8 @@
 ---
 layout: null
-category: edu
-title: 2014 - Present
+title: 2015 - 2018
 subtitle: Tsinghua University
 image: "assets/img/timeline/tsinghua.jpg"
 ---
-Ph.D Candidate at School of Economics and Management
+Master of Management in Information Systems
+@School of Economics and Management
