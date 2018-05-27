@@ -2,16 +2,16 @@ url: https://andytaoli.github.io
 baseurl: /
 
  
-keywords: "jekyll, theme"
+keywords: "AndyTaoLi, Information Systems"
 google-tracking-id:
 
 # Career Settings
 # Default career thumbnail image.
-career-img: "img/timeline/default.jpg"
+career-img: "assets/img/timeline/default.jpg"
 
 exclude: ["Rakefile", "LICENSE", "readme.markdown","package.json", "src", "node_modules"]
 # Site settings
-title: AndyTaoLi
+title: Andy Tao Li
 description: A Personal webiste of AndyTaoLi
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
@@ -24,9 +24,5 @@ email: andytaolee@gmail.com
 twitter_username: andytaoli
 github_username:  andytaoli
 gplus_username:  andytaoli
-
-# Google-analytics
-google-analytics:
-  id: ""
 
  
