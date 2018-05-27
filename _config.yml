@@ -9,7 +9,7 @@ google-tracking-id:
 # Default career thumbnail image.
 career-img: "img/timeline/default.jpg"
 
-exclude: ["Rakefile", "LICENSE", "readme.markdown"，'package.json', 'src' , 'node_modules']
+exclude: ["Rakefile", "LICENSE", "readme.markdown","package.json", "src", "node_modules"]
 # Site settings
 title: AndyTaoLi
 description: A Personal webiste of AndyTaoLi
