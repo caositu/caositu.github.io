@@ -2,6 +2,6 @@
 layout: null
 title: 2007 - 2010
 subtitle: Shandong Experimental High School
-image: "img/timeline/shandong.jpg"
+image: "assets/img/timeline/shandong.jpg"
 ---
  
