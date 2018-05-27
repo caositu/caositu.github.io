@@ -8,12 +8,12 @@
 
 	
 	{% include header.html %}
-	
+	{% include navigation.html %}
 	
   {% for page in site.pages   %}
 	
     {% if page.section-type == "default"%}
-	{% include navigation.html %}
+	
       <!-- {{ page.title }} Section -->
       <section id="{{ page.title }}" class="container content-section text-center">
           <div class="row">
@@ -26,7 +26,7 @@
 
 	
     {% elsif page.section-type == "contact" %}
-	{% include navigation.html %}
+	 
       <!-- {{ page.title }} Section -->
       <section id="{{ page.title }}" class="container content-section text-center">
           <div class="row">
@@ -45,7 +45,7 @@
           </div>
       </section>
     {% elsif page.section-type == "timeline" %}
-	{% include navigation.html %}
+	 
       <!-- {{ page.title }} Section -->
       <section id="{{ page.title }}" class="container content-section text-center">
           <div class="row">
