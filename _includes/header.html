@@ -12,22 +12,6 @@
 	  
 		<a href="#about" class="btn">More</a>
       </div>
-	 
-	    <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">&nbsp;</h1>
-                        <p class="intro-text">{{ content }}</p>
-                        {% capture title %}{% for page in site.pages | sort: "title" %}{% if forloop.first %}{{ page.title }}{% endif %}{% endfor %}{% endcapture %}
-                        <a href="#{{ title }}" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-	 
   </div>
   
  <a class="down" href="#about" data-scroll><i class="fa fa-angle-double-down animated" aria-hidden="true"></i></a>
