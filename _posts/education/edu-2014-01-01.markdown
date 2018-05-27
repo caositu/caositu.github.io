@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: edu
 title: 2014 - Present
 subtitle: Tsinghua University
 image: "assets/img/timeline/tsinghua.jpg"

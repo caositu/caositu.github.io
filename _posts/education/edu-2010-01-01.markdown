@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: edu
 title: 2010 - 2014
 subtitle: Tianjin University
 image: "assets/img/timeline/tianjin.jpg"

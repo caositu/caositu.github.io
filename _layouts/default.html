@@ -44,7 +44,7 @@
               </div>
           </div>
       </section>
-    {% elsif page.section-type == "timeline_education" %}
+    {% elsif page.section-type == "timeline_edu" %}
 	 
       <!-- {{ page.title }} Section -->
       <section id="{{ page.title }}" class="container content-section text-center">
@@ -53,13 +53,14 @@
                 {{ page.content | markdownify }}
                 <ul class="timeline">
                 {% for post in site.posts%}
+				{% if  post.layout == edu  %}
                   {% assign loopindex = forloop.index | modulo: 100 %}
                   {% capture class %}
                     {% if loopindex == 0 %}
                       timeline-inverted
                     {% endif %}
                   {% endcapture %}
-
+				{% endif %}
                   <li class="{{ class }}">
                       <div class="timeline-image">
                           <img class="img-circle img-responsive" src="{{ site.baseurl }}/{% if post.image %}{{ post.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
@@ -92,6 +93,7 @@
                 {{ page.content | markdownify }}
                 <ul class="timeline">
                 {% for post in site.posts %}
+				{% if  post.layout == exp  %}
                   {% assign loopindex = forloop.index | modulo: 1 %}
                   {% capture class %}
                     {% if loopindex == 0 %}
@@ -113,7 +115,7 @@
                           </div>
                       </div>
                   </li>
-
+				{% endif %}
                 {% endfor %}
 
                   <li class="timeline-inverted">

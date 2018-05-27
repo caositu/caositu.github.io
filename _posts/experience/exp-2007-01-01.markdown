@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: exp
 title: 2007 - 2010
 subtitle: Shandong Experimental High School
 image: "assets/img/timeline/shandong.jpg"
