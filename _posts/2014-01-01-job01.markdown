@@ -1,7 +1,0 @@
----
-layout: null
-title: June 2014 - Present
-subtitle:
-image: "assets/img/timeline/4.jpg"
----
-Nankai University
