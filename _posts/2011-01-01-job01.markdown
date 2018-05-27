@@ -3,6 +3,6 @@ layout: null
 category: edu
 title: 2011 - 2015
 subtitle: Dalian University of Technology
-image: "assets/img/timeline/tianjin.jpg"
+image: "assets/img/timeline/dalian.jpg"
 ---
 Bachelor of Management in MIS
