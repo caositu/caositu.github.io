@@ -1,5 +1,6 @@
 ---
-layout: edu
+layout: null
+category: edu
 title: 2014 - Present
 subtitle: Tsinghua University
 image: "assets/img/timeline/tsinghua.jpg"
