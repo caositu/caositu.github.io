@@ -1,0 +1,8 @@
+---
+layout: null
+category: edu
+title: 2011 - 2014
+subtitle: Nankai University
+image: "assets/img/timeline/nankai.jpg"
+---
+Bachelor of Economics in Finance
