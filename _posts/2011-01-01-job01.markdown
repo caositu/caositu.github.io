@@ -1,7 +1,7 @@
 ---
 layout: null
-title: July 2011 - May 2012
-subtitle:
+title: Sep 2014 - present
+subtitle: Ph.D Candidate
 image: "assets/img/timeline/1.jpg"
 ---
-Ph.D Candidate
+School of Economics and Management, Tsinghua University

@@ -53,7 +53,7 @@
                 {{ page.content | markdownify }}
                 <ul class="timeline">
                 {% for post in site.posts %}
-                  {% assign loopindex = forloop.index | modulo: 2 %}
+                  {% assign loopindex = forloop.index | modulo: 10 %}
                   {% capture class %}
                     {% if loopindex == 0 %}
                       timeline-inverted
