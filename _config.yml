@@ -1,8 +1,8 @@
-url: https://andytaoli.github.io
+url: https://caositu.github.io
 baseurl: /
 
  
-keywords: "AndyTaoLi, Information Systems"
+keywords: "Cao Siyao"
 google-tracking-id:
 
 # Career Settings
@@ -11,15 +11,15 @@ career-img: "assets/img/timeline/default.jpg"
 
 exclude: ["Rakefile", "LICENSE", "readme.markdown","package.json", "src", "node_modules"]
 # Site settings
-title: Andy Tao Li
+title: Cao Siyao
 description: A Personal webiste of AndyTaoLi
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 ## particle setting： https://blog.csdn.net/csdn_yudong/article/details/53128570
 # User settings
-username: Andy Tao Li
-user_description: Ph.D Candidate at Tsinghua SEM
-user_title: Ph.D Candidate at Tsinghua
+username: Cao Siyao
+user_description: Master at Tsinghua SEM
+user_title: Master at Tsinghua
 email: andytaolee@gmail.com
 twitter_username: andytaoli
 github_username:  andytaoli
