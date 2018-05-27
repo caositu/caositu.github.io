@@ -1,0 +1,8 @@
+---
+layout: null
+category: exp
+title: 2007 - 2010
+subtitle: Ping An Insurance Ltd.
+image: "assets/img/timeline/pingan.jpg"
+---
+Risk Manager
