@@ -1,0 +1,7 @@
+---
+layout: null
+title: 2014 - Present
+subtitle: Tsinghua University
+image: "assets/img/timeline/tsinghua.jpg"
+---
+Ph.D Candidate at School of Economics and Management
