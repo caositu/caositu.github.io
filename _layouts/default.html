@@ -10,7 +10,7 @@
 	{% include header.html %}
 
   {% for page in site.pages %}
-	{% include navigation.html %}
+	
     {% if page.section-type == "default" %}
 	
       <!-- {{ page.title }} Section -->
@@ -21,6 +21,12 @@
               </div>
           </div>
       </section>
+	  
+	
+    {% elsif page.section-type != "default" %}
+	
+	{% include navigation.html %}
+	
     {% elsif page.section-type == "contact" %}
       <!-- {{ page.title }} Section -->
       <section id="{{ page.title }}" class="container content-section text-center">
